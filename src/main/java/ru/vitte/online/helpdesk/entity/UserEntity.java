@@ -8,9 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import ru.vitte.online.helpdesk.entity.enums.Role;
-
-import java.util.List;
 
 @Entity
 @AllArgsConstructor
@@ -29,5 +26,5 @@ public class UserEntity {
 
     private String email;
 
-    private List<Role> role;
+    private String role;
 }
